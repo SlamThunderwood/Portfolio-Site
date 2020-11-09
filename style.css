@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+body {
+  background-color:#000000;
+}
+
+header, main, h1, h2 {
+  font-family: 'Vesper Libre', serif;
+  text-align: center;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  line-height:30px;
+  background-color: black;
+}
+
+h1, h2, h3, h4, p {
+  text-align:center;
+  font-family: 'Vesper Libre', serif;
+  font-size:22px;
+  color: azure;
+  font-weight: 900px;
+  line-height:30px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 20px;
+  line-height:30px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  line-height:30px;
+  letter-spacing: 2px;
+}
+
+
+ul, ol, li {
+  list-style: inside;
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  text-decoration: none;
+  color: azure;
+}
+
+main {
+  text-align:center;
+  font-family: 'Vesper Libre', serif;
+  letter-spacing: 2px;
+}
+
+article, footer {
+  background-color: black;
+  text-align:center;
+  font-family: 'Vesper Libre', serif;
+  margin:20px;
+  line-height:30px;
+  padding:20px;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: black;
+}
+
+nav, a {
+  font-family: 'Vesper Libre', serif;
+  font-size:20px;
+  line-height:30px;
+  text-align: center;
+  text-decoration: none;
+  color: azure;
+  letter-spacing: 2px;
+}
+a {
+  font-family: 'Vesper Libre', serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: azure;
+  letter-spacing: 2px;
+  line-height:30px;
+  font-style:italic;
+}
+
+a:link     { color: white;   }
+a:vistited { color: red;    }
+a:hover    { color: orange;   }
+a:active   { color: goldenrod; }
