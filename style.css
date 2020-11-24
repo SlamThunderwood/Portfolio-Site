@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+/* My style is definitely all raw, black and white, no frills. Contrast makes you really focus on the content of the page. I like to think of this as a negative copy of a book. */
 
 body {
   background-color:#000000;
 }
+
+img {
+  width: 300px;
+}
+
+/* A good example of the style I like would be the font that I'm using from Google */
 
 header, main, h1, h2 {
   font-family: 'Vesper Libre', serif;
@@ -38,7 +45,7 @@ p {
   letter-spacing: 2px;
 }
 
-
+/* I did notice that my ordered list is not populating as such, it's just appearing with bullet points like an unordered. I will investigate why this isn't working. Perhaps it's the font I downloaded? */
 ul, ol, li {
   list-style: inside;
   text-align: justify;
